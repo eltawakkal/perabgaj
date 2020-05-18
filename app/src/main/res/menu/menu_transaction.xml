@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_mutation"
+        android:title="Mutasi Pembayaran"
+        android:icon="@drawable/ic_mutation"/>
+    <item
+        android:id="@+id/menu_tagihan"
+        android:title="Konsumen Jatuh Tempo"
+        android:icon="@drawable/ic_tagihan"/>
+</menu>

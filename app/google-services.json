@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1018009263779",
+    "firebase_url": "https://prima-group-mobile.firebaseio.com",
+    "project_id": "prima-group-mobile",
+    "storage_bucket": "prima-group-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018009263779:android:bcd8208ec488381de06916",
+        "android_client_info": {
+          "package_name": "com.example.mycontact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018009263779-q6gedfq8onmdl7a1jcar96ha53q4fb28.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN738oP8nhXm0YUJqcvmhwIHS_XUJ3SBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018009263779-q6gedfq8onmdl7a1jcar96ha53q4fb28.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

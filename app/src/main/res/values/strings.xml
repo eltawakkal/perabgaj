@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Prima Group</string>
+    <string name="note_add_cicilan">Pembayaran pertama akan dimasukkan sebagai Booking Fee, inputan Ke dua dan seterusnya akan dijadikan Cicilan</string>
+
+
+    <string name="user_location_permission_explanation">Untuk Menggunakan Fitur ini Anda Wajib Mengaktifkan Lokasi</string>
+</resources>

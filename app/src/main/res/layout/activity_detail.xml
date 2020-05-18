@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity"
+    android:background="@drawable/bg5">
+
+    <com.google.android.material.appbar.AppBarLayout
+        app:elevation="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+            app:expandedTitleGravity="bottom|center"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            android:layout_width="match_parent"
+            app:contentScrim="@color/colorPrimary"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/buyer"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                app:layout_collapseMode="parallax"
+                android:layout_width="80dp"
+                android:layout_height="80dp"/>
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar_detail"
+                app:navigationIcon="@drawable/ic_left"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark"
+                app:layout_collapseMode="pin"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"/>
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_buyer_detail"
+        app:tabSelectedTextColor="@color/colorWhite"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:tabTextColor="@color/colorWhite"
+        app:tabIndicatorColor="@color/colorAccent"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"/>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pager_detail_buyer"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+<!--    <include layout="@layout/content_detail"/>-->
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

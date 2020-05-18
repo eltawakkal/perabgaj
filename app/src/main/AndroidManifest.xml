@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mycontact">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/primagroup"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/primagroup"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".KaryawanActivity"></activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".absensi.AbsenHistoryActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login.SignUpActivity" />
+        <activity android:name=".login.LoginActivity"></activity>
+        <activity android:name=".absensi.AbsenActivity"></activity>
+        <activity android:name=".TransactionActivity" />
+        <activity android:name=".HouseActivity" />
+        <activity android:name=".PtActivity" />
+        <activity android:name=".DetailActivity" />
+        <activity android:name=".AddEditActivity" />
+        <activity android:name=".BuyerActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDN738oP8nhXm0YUJqcvmhwIHS_XUJ3SBg" />
+    </application>
+
+</manifest>
